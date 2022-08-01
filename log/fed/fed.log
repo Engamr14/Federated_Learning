@@ -1,0 +1,536 @@
+LENET 5
+
+5 CLIENTS
+
+#############################################################
+Fed_cifar_lenet5_FedAVGWeighted
+Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: non-iid
+
+ACCURACY
+Dataset      R0    R10    R50    R100    R150
+---------  ----  -----  -----  ------  ------
+Test set   9.19  19.38  26.22   28.47   33.83
+Train set  9.3   19.37  26.11   28.6    31.53
+#############################################################
+Fed_cifar_lenet5_FedAVGWeighted
+Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   10.11  14.30  11.22   17.26   18.02
+Train set  10.10  14.37  11.26   16.86   17.17
+#############################################################
+Fed_cifar_lenet5_FedAVGWeighted
+Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0.05
+
+ACCURACY
+Dataset      R0    R10    R50    R100    R150
+---------  ----  -----  -----  ------  ------
+Test set   9.94   10.00  11.87   14.58   17.44
+Train set  9.91   10.00  11.42   14.17   16.58
+#############################################################
+Fed_cifar_lenet5_FedAVGWeighted
+Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0.5
+Round: 0	
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   10.77  12.27  18.70   21.82   24.15
+Train set  10.92  12.31  18.52   21.99   22.73
+#############################################################
+Fed_cifar_lenet5_FedAVGWeighted
+Round: 0	Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 100
+
+ACCURACY
+Dataset      R0    R10    R50    R100    R150
+---------  ----  -----  -----  ------  ------
+Test set   9.85  10.91  24.8    26.87   30.44
+Train set  9.91  10.93  24.58   26.89   28.7
+#############################################################
+
+5 LOCAL EPOCHS
+
+#############################################################
+Fed_cifar_lenet5_FedAVGWeighted
+Round: 0	Local epochs: 5
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet: 0.05
+
+ACCURACY
+Dataset      R0    R10    R50    R100    R150
+---------  ----  -----  -----  ------  ------
+Test set  10.74  10.00  14.42   23.38   26.26
+Train set 10.92  10.00  12.83   21.19   24.44
+#############################################################
+Fed_cifar_lenet5_FedAVGWeighted
+Round: 0	Local epochs: 5
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: non-iid
+
+ACCURACY
+Dataset      R0    R10    R50    R100    R150
+---------  ----  -----  -----  ------  ------
+Test set  12.86  31.16  42.35   47.72   52.08
+Train set 12.81  29.54  39.76   43.75   48.44
+#############################################################
+
+10 CLIENTS
+
+Fed_cifar_lenet5_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: non-iid
+
+ACCURACY
+Dataset      R0    R10    R50    R100    R150
+---------  ----  -----  -----  ------  ------
+Test set   9.71  20.37  30.38   35.28   38.86
+Train set  9.40  19.71  28.33   32.99   36.11
+#############################################################
+Fed_cifar_lenet5_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0
+
+ACCURACY
+Dataset      R0    R10    R50    R100    R150
+---------  ----  -----  -----  ------  ------
+Test set   9.54   10.00  13.13   15.84   15.78
+Train set  9.38   10.00  12.75   14.68   14.90
+#############################################################
+Fed_cifar_lenet5_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0.05
+
+ACCURACY
+Dataset      R0    R10    R50    R100    R150
+---------  ----  -----  -----  ------  ------
+Test set   7.31  10.23  16.25   20.98   22.57
+Train set  8.39  10.17  15.16   19.09   21.5
+#############################################################
+Fed_cifar_lenet5_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0.5
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set    9.92  13.28  22.12   25.31   27.61
+Train set  10.06  12.97  20.53   23.23   25.24
+#############################################################
+Fed_cifar_lenet5_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 100
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   11.27  17.01  28.08   32.5    35.95
+Train set  10.84  16.01  26.15   29.73   33.5
+
+
+
+
+MOBILENET 
+
+5 CLIENTS
+
+#############################################################
+Fed_cifar_mobilenet_FedAVGWeighted
+Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: non-iid
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   13.28  52.71  63.00   64.54   65.30
+Train set  12.12  47.53  60.80   62.88   63.88
+#############################################################
+Fed_cifar_mobilenet_FedAVGWeighted
+Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   10.17  11.91   9.13   10.81   11.55
+Train set  10.66  11.08   9.52   11.40   12.35
+#############################################################
+Fed_cifar_mobilenet_FedAVGWeighted
+Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0.05
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   10.37  11.14   16.60  20.83   25.30
+Train set  10.72  10.77   16.28  19.31   23.91
+#############################################################
+Fed_cifar_mobilenet_FedAVGWeighted
+Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0.5
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   12.59  16.42  35.85   36.86   41.95
+Train set  11.39  16.42  33.23   35.51   40.22
+#############################################################
+Fed_cifar_mobilenet_FedAVGWeighted
+Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 100
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   11.33  41.68  60.49   63.41   64.01
+Train set  10.55  39.46  56.98   61.38   62.57
+#############################################################
+
+LOCAL EPOCHS 5
+
+#############################################################
+Fed_cifar_mobilenet_FedAVGWeighted
+Local epochs: 5
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: non-iid
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   15.76  65.63  71.33   73.97   76.45
+Train set  17.60  67.53  71.79   74.58   77.04
+#############################################################
+Fed_cifar_mobilenet_FedAVGWeighted
+Local epochs: 5
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0.05
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   10.01   9.99  31.47   39.22   44.13
+Train set   6.91  10     31.57   38.24   42.59
+#############################################################
+
+10 CLIENTS
+
+#############################################################
+Fed_cifar_mobilenet_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: non-iid
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   9.05   52.76  64.71   66.72   69.66
+Train set  9.74   48.62  63.46   66.00   69.67
+#############################################################
+Fed_cifar_mobilenet_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   11.4   10.59  11.08   10.04    9.6
+Train set  12.65  11.43  12.2    11.32   10.79
+#############################################################
+Fed_cifar_mobilenet_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0.05
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   9.19  10.40  19.20   25.88   32.18
+Train set  8.90  10.80  21.58   28.59   34.44
+#############################################################
+Fed_cifar_mobilenet_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0.5
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   13.22  24.36  38.99   46.97   50.51
+Train set  12.92  22.08  36.05   43.09   48
+#############################################################
+Fed_cifar_mobilenet_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 100
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   10.33  46.25  62.92   64.54   67.48
+Train set  10.27  46.7   61.5    63.88   67.9
+#############################################################
+
+
+CNN
+
+5 CLIENTS
+
+#############################################################
+Fed_cifar_cnn_cifar_FedAVGWeighted
+Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: non-iid
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set    9.31  21.67  27.64   30.03   33.08
+Train set   9.64  21.40  26.55   28.32   31.31
+#############################################################
+Fed_cifar_cnn_cifar_FedAVGWeighted
+Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet alpha: 0
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set    9.40  10.00  10.93   13.48   15.30
+Train set   9.03  10.00  10.43   12.63   13.53
+#############################################################
+Fed_cifar_cnn_cifar_FedAVGWeighted
+Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet alpha: 0.05
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   11.16  10.00  14.97   16.21   20.69
+Train set  10.73  10.00  13.75   15.41   18.66
+#############################################################
+Fed_cifar_cnn_cifar_FedAVGWeighted
+Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet alpha: 0.5
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set    7.89  10.57  19.29   22.88   24.45
+Train set   8.44  10.06  19.01   22.38   23.38
+#############################################################
+Fed_cifar_cnn_cifar_FedAVGWeighted
+Local epochs: 1
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet alpha: 100
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   10.48  16.56  26.95   29.08   30.83
+Train set  10.44  16.76  26.04   27.68   29.09
+
+5 LOCAL EPOCHS
+
+#############################################################
+Fed_cifar_cnn_cifar_FedAVGWeighted
+Local epochs: 5
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet alpha: 0.05
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set    9.69  10.00  22.73   27.65   29.05
+Train set  10.39  10.00  20.09   24.80   26.51
+#############################################################
+Fed_cifar_cnn_cifar_FedAVGWeighted
+Local epochs: 5
+Selected clients: 5.0
+Momentum: 0	Learning rate: 0.01
+Distribution: non-iid
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   10.01  33.23  42.74   46.67   51.15
+Train set  10.02  31.33  41.46   45.12   49.08
+
+10 CLIENTS
+
+#############################################################
+Fed_cifar_cnn_cifar_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: non-iid
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   10.23  24.43  29.65   34.54   38.64
+Train set  10.79  23.46  28.07   32.73   37.39
+#############################################################
+Fed_cifar_cnn_cifar_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   10.19     10  14.92   14.73   17.86
+Train set  10.16     10  13.25   12.82   15.12
+#############################################################
+Fed_cifar_cnn_cifar_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0.05
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set    9.4   12.14  21.35   23.68   25.25
+Train set  10.03  12.37  17.92   21.56   22.97
+#############################################################
+Fed_cifar_cnn_cifar_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 0.5
+
+ACCURACY
+Dataset       R0    R10    R50    R100    R150
+---------  -----  -----  -----  ------  ------
+Test set   13.09  15.46  23.05   25.4    27.64
+Train set  12.18  14.19  21.79   23.41   26.12
+#############################################################
+Fed_cifar_cnn_cifar_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0	Learning rate: 0.01
+Distribution: dirichlet	alpha: 100
+
+ACCURACY
+Dataset      R0    R10    R50    R100    R150
+---------  ----  -----  -----  ------  ------
+Test set   9.97  19.91  28.48   31.4    35.06
+Train set  9.83  20.22  26.62   29.78   33.38
+#############################################################
+
+
+NORMALIZATION
+
+
+Fed_cifar_lenet5_batch_norm_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0  Learning rate: 0.01
+Distribution: dirichlet  alpha:0.5
+--------------------------------------
+                   R1    R11     R51    R101    R150
+--------------  -----  -----  ------  ------  ------
+Test set acc.   12.7   18.33  30.19   33.7    37.43
+Train set acc.  12.36  17.38  28.708  31.776  35.256
+--------------------------------------
+
+Fed_cifar_lenet5_batch_norm_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0  Learning rate: 0.01
+Distribution: non-iid
+--------------------------------------
+                   R1     R11     R51    R101    R150
+--------------  -----  ------  ------  ------  ------
+Test set acc.   11.25  32.5    41.41   46.18   49.77
+Train set acc.  11.49  30.514  39.038  43.446  46.858
+--------------------------------------
+
+Fed_cifar_lenet5_group_norm_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0  Learning rate: 0.01
+Distribution: dirichlet  alpha:0.5
+--------------------------------------
+                   R1    R11     R51    R101    R150
+--------------  -----  -----  ------  ------  ------
+Test set acc.   8.32   17.52  26.3    30.68   33.45
+Train set acc.  8.754  17.15  24.582  28.034  31.272
+--------------------------------------
+Fed_cifar_lenet5_group_norm_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0  Learning rate: 0.01
+Distribution: dirichlet  alpha:0.05
+--------------------------------------
+                    R1     R11     R51    R101    R150
+--------------  ------  ------  ------  ------  ------
+Test set acc.   10.05   12.7    15.72    21.01  23.33
+Train set acc.  10.202  12.446  15.286   20.81  22.438
+--------------------------------------
+
+Fed_cifar_lenet5_group_norm_FedAVGWeighted
+Local epochs: 1
+Selected clients: 10.0
+Momentum: 0  Learning rate: 0.01
+Distribution: non-iid
+--------------------------------------
+                    R1     R11     R51    R101    R150
+--------------  ------  ------  ------  ------  ------
+Test set acc.   11.06   28.46   36.69   42.19   45.88
+Train set acc.  10.692  26.526  34.508  39.474  42.924
+--------------------------------------
