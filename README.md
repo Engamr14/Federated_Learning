@@ -7,7 +7,7 @@ The used dataset is CIFAR 10
 
 - 60k images
 
-- 50k for t r aining, 10k for testing
+- 50k for training, 10k for testing
 
 - 10 classes
 
